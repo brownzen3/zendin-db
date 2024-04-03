@@ -142,7 +142,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from ", "SOURCE", "URL"]
+        ["", "", ""]
     ],
 
     [
@@ -175,7 +175,7 @@ const database = [
             ],
             ["Cream Bowl", 
                 [
-                    ['115g', 'unsalted butter (softened to 18°C)'],
+                    ['115g', 'unsalted butter (melted, at RT)'],
                     ['150g', 'granulated sugar'],
                     ['2', 'large eggs (at room temperature)'],
                 ]
@@ -190,7 +190,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from ", "SOURCE", "URL"]
+        ["Adapted from ", "RecipeTin", "https://www.recipetineats.com/pineapple-upside-down-cake/"]
     ],
 
     [
@@ -222,7 +222,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from ", "SOURCE", "URL"]
+        ["Adapted from ", "Tasty", "https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies"]
     ],
 
     [
@@ -252,7 +252,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from ", "SOURCE", "URL"]
+        ["", "", ""]
     ],
 
     [
@@ -274,7 +274,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from ", "SOURCE", "URL"]
+        ["", "", ""]
     ],
 
     [
@@ -299,7 +299,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from ", "SOURCE", "URL"]
+        ["", "", ""]
     ],
 
  
