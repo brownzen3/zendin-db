@@ -73,7 +73,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from", "Source", "about:blank"]
+        ["Adapted from", "Sally's Baking Recipes", "https://sallysbakingaddiction.com/cinnamon-swirl-banana-bread/"]
     ],
 
     [ 'Chocolate Cake', '15 mins', '25 mins', 'Serves 8', 
@@ -108,7 +108,7 @@ const database = [
                 ]
             ]
         ],
-        ["Adapted from ", "SOURCE", "URL"]
+        ["Adapted from ", "Olive", "https://www.olivemagazine.com/recipes/baking-and-desserts/ott-chocolate-smores-cake/"]
     ],
     
     [ 'Carrot Cake', '20 mins', '45 mins', 'Serves 10', 
