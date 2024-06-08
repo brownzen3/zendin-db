@@ -230,29 +230,29 @@ const database = [
         [
             ["Dry Bowl", 
                 [
-                    ['270g', 'plain flour'],
-                    ['4 tsp', 'baking powder'],
-                    ['50g', 'sugar'],
-                    ['1 tsp', 'salt'],
+                    ['245g', 'plain flour'],
+                    ['2 tsp', 'baking powder'],
+                    ['1 tbsp', 'sugar'],
+                    ['1/2 tsp', 'salt'],
                 ]
             ],
             ["Wet Bowl", 
                 [
-                    ['480ml', 'milk'],
-                    ['120ml', 'vegetable oil'],
-                    ['2', 'egg yolks (keep egg whites)'],
-                    ['2 tsp', 'vanilla extract'],
+                    ['390ml', 'milk'],
+                    ['125ml', 'vegetable oil'],
+                    ['3', 'egg yolks (keep egg whites)'],
+                    ['1 tsp', 'vanilla extract'],
                 ]
             ],
             ["Preparation", 
                 [
                     ['Stir the wet mixture into the dry bowl, until almost combined.'],
-                    ['Fold in the egg whites, until no streaks remain.'],
+                    ['Fold in the beaten egg whites, just until no streaks remain.'],
                     ['Cook in waffle maker until golden (according to manufacturer instructions).']
                 ]
             ]
         ],
-        ["", "", ""]
+        ["Adapted from", "multiple sources", ""]
     ],
 
     [
