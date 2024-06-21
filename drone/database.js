@@ -1,4 +1,6 @@
-const allowLoad = true;
+const allowLoad          = true;
+const uploadDate         = "21 Jun 2024";
+
 const compatibleImporter = "1.0";
 
 const database = {
