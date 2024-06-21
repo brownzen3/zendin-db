@@ -9,3 +9,8 @@ const database = {
     "0453": ["https://live.staticflickr.com/65535/53797937503_db0c40ba27_o.jpg", "https://live.staticflickr.com/65535/53802212665_e0e354e654_o.jpg", "Apr 2022", "Dead Sea, IL"       , -70 , 120 , "210"],
     "0338": ["https://live.staticflickr.com/65535/53798129525_ccc8c76776_o.jpg", "https://live.staticflickr.com/65535/53800839107_b9531212dd_o.jpg", "Aug 2022", "Isle of Wight, UK"  , -70 , 45  , "210"],
 };
+
+const custom = {
+//  "ID  ": <custom data>
+    "2050": ["https://live.staticflickr.com/65535/53806092655_43fdfb155d_o.jpg","https://live.staticflickr.com/65535/53805900518_b1b1a30cfa_o.jpg"],
+}
