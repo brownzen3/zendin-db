@@ -13,4 +13,4 @@ const database = {
 const db_custom = {
 //  "ID  ": <custom data>
     "2050": ["https://live.staticflickr.com/65535/53806092655_43fdfb155d_o.jpg","https://live.staticflickr.com/65535/53805900518_b1b1a30cfa_o.jpg"],
-}
+};
