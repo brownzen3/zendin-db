@@ -229,7 +229,7 @@ const database = [
     ],
 
 
-    [ "Cookies"                       "15 mins", "25 mins", "Serves 12",
+    [ "Cookies",                       "15 mins", "25 mins", "Serves 12",
         [
             ["Main Bowl", 
                 [
