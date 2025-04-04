@@ -35,6 +35,7 @@ const database = [
     ],
 */
 
+
     [ 'Banana Bread', '20 mins', '45 mins', '8-12 servings', 
         [
             ['Dry Bowl', 
@@ -76,6 +77,7 @@ const database = [
         ["Adapted from", "Sally's Baking Recipes", "https://sallysbakingaddiction.com/cinnamon-swirl-banana-bread/"]
     ],
 
+
     [ 'Chocolate Cake', '15 mins', '25 mins', 'Serves 8', 
         [
             ['Dry Bowl', 
@@ -112,7 +114,6 @@ const database = [
     ],
 
     
-    
     [ 'Carrot Cake', '20 mins', '1hr', '15 People', 
         [
             ['Bowl 1', 
@@ -134,35 +135,37 @@ const database = [
                 ]
             ],
 
-            ['bowl 3',
+            ['Bowl 3',
                 [
                     ['1 can', 'crushed pinapple with juice'],
                     ['1 cup', 'chopped walnuts (optional)'],
                     ['1 cup', 'raisins (optional)'],
-            ['frosting'
+                ]
+            ],
+
+            ['Frosting'
                 [
                     ['113g', 'unsalted butter (softened)'],
                     ['200g', 'powdered icing sugar (sifted)'],
                     ['250g', 'cream cheese (softened and cut into smaller cubes)'],
                     ['1_1/2 teaspoon', 'lemon juice'],
                     ['1/2 teaspoon', 'vanilla extract'],
+                    ['*', 'beat in all the ingredients together until smooth and fluffy']
+                ]
+            ],
 
             ['Preparation', 
                 [
                     ['while mixing bowl 2 together add bowl 1'],
                     ['combine bowl 3 and pour the batter into baking tray'],
-                    ['Bake at *350* for @1hr@@.'],
-
-            ['frosting',
-                [
-                    ['beat in all the ingredients together until smooth and fluffy'],
+                    ['Bake at *175°C** for @60@@ minutes@@@.'],
                 ]
             ]
+
         ],
         ["Adapted from ", "SOURCE", "URL"]
     ],
 
-    
 
     [
         "Upside Down Pineapple Cake", "20 mins", "40 mins", "Serves 10",
@@ -212,6 +215,7 @@ const database = [
         ["Adapted from ", "RecipeTin", "https://www.recipetineats.com/pineapple-upside-down-cake/"]
     ],
 
+
     [
         "Cookies", "15 mins", "25 mins", "Serves 12",
         [
@@ -244,6 +248,7 @@ const database = [
         ["Adapted from ", "Tasty", "https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies"]
     ],
 
+
     [
         "Belgian Waffles", "10 mins", "5 mins", "6-8 waffles",
         [
@@ -274,6 +279,7 @@ const database = [
         ["Adapted from", "multiple sources", ""]
     ],
 
+
     [
         "Cupcakes", "5 mins", "25 mins", "Serves 12",
         [
@@ -295,6 +301,7 @@ const database = [
         ],
         ["", "", ""]
     ],
+
 
     [
         "Brownies", "15 mins", "15 mins", "Serves 10",
@@ -322,7 +329,6 @@ const database = [
     ],
 
  
-
 // end of database
 
 ];
