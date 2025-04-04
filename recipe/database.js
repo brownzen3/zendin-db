@@ -1,77 +1,79 @@
 const allowLoad            = true;
-const uploadDate           = "Apr 2024";
 const compatibleImporter   = "1.0";
+
 
 const database = [
 
 /*
-    [ 'TITLE', 'PREP_TIME', 'COOK_TIME', 'PEOPLE servings', 
+
+    [ "TITLE", "PREP_TIME", "COOK_TIME", "PEOPLE servings", 
         [
-            ['SUB_HEADER', 
+            ["SUB_HEADER", 
                 [
-                    ['QTY', 'INGREDIENT'],
-                    ['QTY', 'INGREDIENT'],
-                    ['QTY', 'INGREDIENT'],
+                    ["QTY", "INGREDIENT"],
+                    ["QTY", "INGREDIENT"],
+                    ["QTY", "INGREDIENT"],
                 ]
             ],
 
-            ['SUB_HEADER', 
+            ["SUB_HEADER", 
                 [
-                    ['QTY', 'INGREDIENT'],
-                    ['QTY', 'INGREDIENT'],
-                    ['QTY', 'INGREDIENT'],
+                    ["QTY", "INGREDIENT"],
+                    ["QTY", "INGREDIENT"],
+                    ["*",   "Instruction."],
                 ]
             ],
 
-            ['Preparation', 
+            ["Preparation", 
                 [
-                    ['LINE_1'],
-                    ['LINE_2'],
-                    ['Bake at *TEMPERATURE* for @TIME@@ minutes@@@.'],
+                    ["LINE_1"],
+                    ["LINE_2"],
+                    ["Bake at *TEMP °C* for @TIME@@ minutes@@@."],
                 ]
             ]
         ],
 
         ["Adapted from ", "SOURCE", "URL"]
     ],
+
 */
 
 
-    [ 'Banana Bread', '20 mins', '45 mins', '8-12 servings', 
+    [ "Banana Bread",                  "20 mins", "45 mins", "8-12 servings", 
         [
-            ['Dry Bowl', 
+            ["Dry Bowl", 
                 [
-                    ['250g',      'plain flour (sifted)'],
-                    ['1 tsp',     'bicarbonate soda'],
-                    ['1/2 tsp',   'ground cinnamon'],
-                    ['1/4 tsp',   'salt'],
-                    ['135g',      'granulated sugar'],
+                    ["250g",      "plain flour (sifted)"],
+                    ["1 tsp",     "bicarbonate soda"],
+                    ["1/2 tsp",   "ground cinnamon"],
+                    ["1/4 tsp",   "salt"],
+                    ["135g",      "granulated sugar"],
                 ]
             ],
 
-            ['Wet Bowl', 
+            ["Wet Bowl", 
                 [
-                    ['56g',       'unsalted butter (melted)'],
-                    ['2',         'large eggs'],
-                    ['345g',      'mashed bananas (3-4)'],
-                    ['80g',       'plain yogurt'],
-                    ['1 tsp',     'vanilla extract'],
+                    ["56g",       "unsalted butter (melted)"],
+                    ["2",         "large eggs"],
+                    ["345g",      "mashed bananas (3-4)"],
+                    ["80g",       "plain yogurt"],
+                    ["1 tsp",     "vanilla extract"],
                 ]
             ],
 
-            ['Cinnamon Swirl', 
+            ["Cinnamon Swirl", 
                 [
-                    ['50g',       'granulated sugar'],
-                    ['1_1/2 tsp', 'ground cinnamon'],
+                    ["50g",       "granulated sugar"],
+                    ["1_1/2 tsp", "ground cinnamon"],
                 ]
             ],
 
-            ['Preparation', 
+            ["Preparation", 
                 [
-                    ['Combine bowls and transfer half of the batter into a cake tin.'],
-                    ['Evenly sprinkle the cinnamon swirl over the batter.'],
-                    ['Add the remaining batter, and swirl with a knife.'],
-                    ['Bake at *160°C** fan forced for @30@@-45 minutes@@@.'],
+                    ["Combine bowls and transfer half of the batter into a cake tin."],
+                    ["Evenly sprinkle the cinnamon swirl over the batter."],
+                    ["Add the remaining batter, and swirl with a knife."],
+                    ["Bake at *160°C** fan forced for @30@@-45 minutes@@@."],
                 ]
             ]
         ],
@@ -80,35 +82,35 @@ const database = [
     ],
 
 
-    [ 'Chocolate Cake', '15 mins', '25 mins', 'Serves 8', 
+    [ "Chocolate Cake",                "15 mins", "25 mins", "Serves 8", 
         [
-            ['Dry Bowl', 
+            ["Dry Bowl", 
                 [
-                    ['200g',      'plain flour (sifted)'],
-                    ['6 tbsp',    'cocoa powder'],
-                    ['1 tsp',     'baking powder'],
-                    ['1 tsp',     'bicarbonate soda'],
-                    ['225g',      'light brown soft sugar'],
-                    ['1/2 tsp',   'salt'],
+                    ["200g",      "plain flour (sifted)"],
+                    ["6 tbsp",    "cocoa powder"],
+                    ["1 tsp",     "baking powder"],
+                    ["1 tsp",     "bicarbonate soda"],
+                    ["225g",      "light brown soft sugar"],
+                    ["1/2 tsp",   "salt"],
                 ]
             ],
 
-            ['Wet Bowl', 
+            ["Wet Bowl", 
                 [
-                    ['2 tbsp',    'horlics'],
-                    ['100ml',     'boiling water'],
-                    ['100g',      'smooth biscuit spread (i.e. Biscoff)'],
-                    ['85ml',      'vegetable oil (= 78g)'],
-                    ['284ml',     'buttermilk (1 standard tub)'],
-                    ['2 tsp',     'vanilla extract'],
-                    ['2',         'large eggs'],
+                    ["2 tbsp",    "horlics"],
+                    ["100ml",     "boiling water"],
+                    ["100g",      "smooth biscuit spread (i.e. Biscoff)"],
+                    ["85ml",      "vegetable oil (= 78g)"],
+                    ["284ml",     "buttermilk (1 standard tub)"],
+                    ["2 tsp",     "vanilla extract"],
+                    ["2",         "large eggs"],
                 ]
             ],
 
-            ['Preparation', 
+            ["Preparation", 
                 [
-                    ['Whilst mixing, add in the contents of the dry bowl.'],
-                    ['Bake at *160°C** for @25@@ minutes@@@.'],
+                    ["Whilst mixing, add in the contents of the dry bowl."],
+                    ["Bake at *160°C** for @25@@ minutes@@@."],
                 ]
             ]
         ],
@@ -117,54 +119,54 @@ const database = [
     ],
 
     
-    [ 'Carrot Cake', '20 mins', '1 hr', 'Serves 15', 
+    [ "Carrot Cake",                   "20 mins", "1 hr",    "Serves 15", 
         [
-            ['Dry Bowl', 
+            ["Dry Bowl", 
                 [
-                    ['250g',      'plain flour (sifted)'],
-                    ['2 tsp',     'baking soda'],
-                    ['2 tsp',     'ground cinnamon'],
-                    ['1/4 tsp',   'salt'],
+                    ["250g",      "plain flour (sifted)"],
+                    ["2 tsp",     "baking soda"],
+                    ["2 tsp",     "ground cinnamon"],
+                    ["1/4 tsp",   "salt"],
                 ]
             ],
 
-            ['Wet Bowl', 
+            ["Wet Bowl", 
                 [
-                    ['300g',      'white sugar'],
-                    ['3',         'large eggs'],
-                    ['180ml',     'buttermilk'],
-                    ['180ml',     'vegtable oil (= 170g)'],
-                    ['2 tsp',     'vanilla extract'],
+                    ["300g",      "white sugar"],
+                    ["3",         "large eggs"],
+                    ["180ml",     "buttermilk"],
+                    ["180ml",     "vegtable oil (= 170g)"],
+                    ["2 tsp",     "vanilla extract"],
                 ]
             ],
 
-            ['Add-ins',
+            ["Add-ins",
                 [
-                    ['2 cups',    'grated carrots (around 4-5)'],
-                    ['1 can',     'crushed pinapple with juice'],
-                    ['1 cup',     'chopped walnuts (optional)'],
-                    ['1 cup',     'raisins (optional)'],
+                    ["2 cups",    "grated carrots (around 4-5)"],
+                    ["1 can",     "crushed pinapple with juice"],
+                    ["1 cup",     "chopped walnuts (optional)"],
+                    ["1 cup",     "raisins (optional)"],
                 ]
             ],
 
-            ['Frosting',
+            ["Frosting",
                 [
-                    ['110g',      'unsalted butter (softened)'],
-                    ['200g',      'powdered icing sugar (sifted)'],
-                    ['250g',      'cream cheese (cubed)'],
-                    ['1_1/2 tsp', 'lemon juice'],
-                    ['1/2 tsp',   'vanilla extract'],
-                    ['*',         'Combine butter and half of the icing sugar until smooth.'],
-                    ['*',         'Add and mix the other ingredients individually.'],
-                    ['*',         'Mix in the remaining icing sugar until light and fluffy.'],
+                    ["110g",      "unsalted butter (softened)"],
+                    ["200g",      "powdered icing sugar (sifted)"],
+                    ["250g",      "cream cheese (cubed)"],
+                    ["1_1/2 tsp", "lemon juice"],
+                    ["1/2 tsp",   "vanilla extract"],
+                    ["*",         "Combine butter and half of the icing sugar until smooth."],
+                    ["*",         "Add and mix the other ingredients individually."],
+                    ["*",         "Mix in the remaining icing sugar until light and fluffy."],
                 ]
             ],
 
-            ['Preparation', 
+            ["Preparation", 
                 [
-                    ['Gradually add the dry bowl into the wet bowl, mixing until just combined.'],
-                    ['Stir add-ins into the batter.'],
-                    ['Bake at *175°C** for @60@@ minutes@@@.'],
+                    ["Gradually add the dry bowl into the wet bowl, mixing until just combined."],
+                    ["Stir add-ins into the batter."],
+                    ["Bake at *175°C** for @60@@ minutes@@@."],
                 ]
             ]
 
@@ -174,51 +176,51 @@ const database = [
     ],
 
 
-    [ "Upside Down Pineapple Cake", "20 mins", "40 mins", "Serves 10",
+    [ "Upside Down Pineapple Cake",    "20 mins", "40 mins", "Serves 10",
         [
             ["Toppings", 
                 [
-                    ['565g',      'canned pineapple slices in juice (not in syrup)'],
-                    ['12-18',     'maraschino/glacé cherries'],
-                    ['100g',      'brown sugar'],
-                    ['*',         'Line a cake tin with parchment paper, and sprinkle the brown sugar evenly over the base.'],
-                    ['*',         'Dry the fruit with tea towels, then place on the base, pressing them down firmly.'],
+                    ["565g",      "canned pineapple slices in juice (not in syrup)"],
+                    ["12-18",     "maraschino/glacé cherries"],
+                    ["100g",      "brown sugar"],
+                    ["*",         "Line a cake tin with parchment paper, and sprinkle the brown sugar evenly over the base."],
+                    ["*",         "Dry the fruit with tea towels, then place on the base, pressing them down firmly."],
                 ]
             ],
 
             ["Dry Bowl", 
                 [
-                    ['225g',      'plain flour (sifted)'],
-                    ['1 tsp',     'baking powder'],
-                    ['¼ tsp',     'bicarbonate soda'],
-                    ['¼ tsp',     'salt'],
+                    ["225g",      "plain flour (sifted)"],
+                    ["1 tsp",     "baking powder"],
+                    ["¼ tsp",     "bicarbonate soda"],
+                    ["¼ tsp",     "salt"],
                 ]
             ],
 
             ["Wet Bowl", 
                 [
-                    ['85 ml',     'milk'],
-                    ['65 ml',     'pineapple juice (from tin)'],
-                    ['60g',       'sour cream / plain yogurt'],
-                    ['1 tsp',     'vanilla extract'],
+                    ["85 ml",     "milk"],
+                    ["65 ml",     "pineapple juice (from tin)"],
+                    ["60g",       "sour cream / plain yogurt"],
+                    ["1 tsp",     "vanilla extract"],
                 ]
             ],
 
             ["Cream Bowl", 
                 [
-                    ['115g',      'unsalted butter (melted, at RT)'],
-                    ['150g',      'granulated sugar'],
-                    ['2',         'large eggs (at room temperature)'],
+                    ["115g",      "unsalted butter (melted, at RT)"],
+                    ["150g",      "granulated sugar"],
+                    ["2",         "large eggs (at room temperature)"],
                 ]
             ],
 
             ["Preparation", 
                 [
-                    ['Mix in 1/3 of the dry bowl into the cream bowl.'],
-                    ['Add half of the wet bowl in, mix, then half of the remaining dry bowl.'],
-                    ['Finally, add the remainder of the wet bowl, then dry bowl.'],
-                    ['Add remaining pineapple, chopped, into the batter.'],
-                    ['Bake at *160°C** fan forced for @40@@ minutes@@@.'],
+                    ["Mix in 1/3 of the dry bowl into the cream bowl."],
+                    ["Add half of the wet bowl in, mix, then half of the remaining dry bowl."],
+                    ["Finally, add the remainder of the wet bowl, then dry bowl."],
+                    ["Add remaining pineapple, chopped, into the batter."],
+                    ["Bake at *160°C** fan forced for @40@@ minutes@@@."],
                 ]
             ]
         ],
@@ -227,34 +229,33 @@ const database = [
     ],
 
 
-    [
-        "Cookies", "15 mins", "25 mins", "Serves 12",
+    [ "Cookies",                       "15 mins", "25 mins", "Serves 12",
         [
             ["Main Bowl", 
                 [
-                    ['100g',      'granulated sugar'],
-                    ['165g',      'light brown soft sugar'],
-                    ['1 tsp',     'salt'],
-                    ['115g',      'unsalted butter'],
-                    ['1',         'large egg'],
-                    ['1 tsp',     'vanilla extract'],
-                    ['155g',      'plain flour (sifted)'],
-                    ['½ tsp',     'baking soda'],
+                    ["100g",      "granulated sugar"],
+                    ["165g",      "light brown soft sugar"],
+                    ["1 tsp",     "salt"],
+                    ["115g",      "unsalted butter"],
+                    ["1",         "large egg"],
+                    ["1 tsp",     "vanilla extract"],
+                    ["155g",      "plain flour (sifted)"],
+                    ["½ tsp",     "baking soda"],
                 ]
             ],
 
             ["Combine with...",
                 [
-                    ['~200g',     'broken chocolate (or chocolate chips)'],
+                    ["~200g",     "broken chocolate (or chocolate chips)"],
                 ]
             ],
 
             ["Preparation", 
                 [
-                    ['Freeze the batter for a minimum of 30 minutes (for best results, freeze overnight).'],
-                    ['Scoop the frozen batter into golf-ball sized spheres.'],
-                    ['Place the spheres onto a baking tray, around 6cm apart.'],
-                    ['Bake at *160°C** fan forced until the edges start to brown - around @20@@ minutes@@@.']
+                    ["Freeze the batter for a minimum of 30 minutes (for best results, freeze overnight)."],
+                    ["Scoop the frozen batter into golf-ball sized spheres."],
+                    ["Place the spheres onto a baking tray, around 6cm apart."],
+                    ["Bake at *160°C** fan forced until the edges start to brown - around @20@@ minutes@@@."]
                 ]
             ]
         ],
@@ -263,31 +264,31 @@ const database = [
     ],
 
 
-    [ "Belgian Waffles", "10 mins", "5 mins", "6-8 waffles",
+    [ "Belgian Waffles",               "10 mins", "5 mins",  "6-8 waffles",
         [
             ["Dry Bowl", 
                 [
-                    ['245g',      'plain flour'],
-                    ['2 tsp',     'baking powder'],
-                    ['1 tbsp',    'sugar'],
-                    ['1/2 tsp',   'salt'],
+                    ["245g",      "plain flour"],
+                    ["2 tsp",     "baking powder"],
+                    ["1 tbsp",    "sugar"],
+                    ["1/2 tsp",   "salt"],
                 ]
             ],
 
             ["Wet Bowl", 
                 [
-                    ['390ml',     'milk'],
-                    ['125ml',     'vegetable oil'],
-                    ['3',         'egg yolks (keep egg whites)'],
-                    ['1 tsp',     'vanilla extract'],
+                    ["390ml",     "milk"],
+                    ["125ml",     "vegetable oil"],
+                    ["3",         "egg yolks (keep egg whites)"],
+                    ["1 tsp",     "vanilla extract"],
                 ]
             ],
 
             ["Preparation", 
                 [
-                    ['Stir the wet mixture into the dry bowl, until almost combined.'],
-                    ['Fold in the beaten egg whites, just until no streaks remain.'],
-                    ['Cook in waffle maker until golden (according to manufacturer instructions).']
+                    ["Stir the wet mixture into the dry bowl, until almost combined."],
+                    ["Fold in the beaten egg whites, just until no streaks remain."],
+                    ["Cook in waffle maker until golden (according to manufacturer instructions)."]
                 ]
             ]
         ],
@@ -296,22 +297,22 @@ const database = [
     ],
 
 
-    [ "Cupcakes", "5 mins", "25 mins", "Serves 12",
+    [ "Cupcakes",                      "5 mins",  "25 mins", "Serves 12",
         [
             ["Bowl", 
                 [
-                    ['200g',      'unsalted butter (melted)'],
-                    ['200g',      'caster sugar'],
-                    ['3',         'large eggs'],
-                    ['2 tsp',     'vanilla extract'],
-                    ['200g',      'self-raising flour'],
-                    ['2 tbsp',    'milk'],
+                    ["200g",      "unsalted butter (melted)"],
+                    ["200g",      "caster sugar"],
+                    ["3",         "large eggs"],
+                    ["2 tsp",     "vanilla extract"],
+                    ["200g",      "self-raising flour"],
+                    ["2 tbsp",    "milk"],
                 ]
             ],
 
             ["Preparation", 
                 [
-                    ['Bake at *160°C** fan forced for @20@@-25 minutes@@@.']
+                    ["Bake at *160°C** fan forced for @20@@-25 minutes@@@."]
                 ]
             ]
         ],
@@ -320,25 +321,25 @@ const database = [
     ],
 
 
-    [ "Brownies", "15 mins", "15 mins", "Serves 10",
+    [ "Brownies",                      "15 mins", "15 mins", "Serves 10",
         [
             ["Bowl", 
                 [
-                    ['170g',      'unsalted butter (melted)'],
-                    ['250g',      'granulated sugar'],
-                    ['2',         'large eggs'],
-                    ['2 tsp',     'vanilla extract'],
-                    ['110g',      'melted chocolate (cooled)'],
-                    ['95g',       'plain flour'],
-                    ['30g',       'cocoa powder'],
-                    ['1 tsp',     'salt'],
-                    ['',          'chocolate chips (optional)'],
+                    ["170g",      "unsalted butter (melted)"],
+                    ["250g",      "granulated sugar"],
+                    ["2",         "large eggs"],
+                    ["2 tsp",     "vanilla extract"],
+                    ["110g",      "melted chocolate (cooled)"],
+                    ["95g",       "plain flour"],
+                    ["30g",       "cocoa powder"],
+                    ["1 tsp",     "salt"],
+                    ["",          "chocolate chips (optional)"],
                 ]
             ],
 
             ["Preparation", 
                 [
-                    ['Bake at *180°C** fan forced for @12@@-15 minutes@@@.']
+                    ["Bake at *180°C** fan forced for @12@@-15 minutes@@@."]
                 ]
             ]
         ],
