@@ -155,7 +155,7 @@ const database = [
                     ['1_1/2 tsp', 'lemon juice'],
                     ['1/2 tsp',   'vanilla extract'],
                     ['*',         'Combine butter and half of the icing sugar until smooth.'],
-                    ['*',         'Add and mix the other ingredients individually.']
+                    ['*',         'Add and mix the other ingredients individually.'],
                     ['*',         'Mix in the remaining icing sugar until light and fluffy.'],
                 ]
             ],
