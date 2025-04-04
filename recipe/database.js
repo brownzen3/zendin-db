@@ -110,40 +110,59 @@ const database = [
         ],
         ["Adapted from ", "Olive", "https://www.olivemagazine.com/recipes/baking-and-desserts/ott-chocolate-smores-cake/"]
     ],
+
     
-    [ 'Carrot Cake', '20 mins', '45 mins', 'Serves 10', 
+    
+    [ 'Carrot Cake', '20 mins', '1hr', '15 People', 
         [
             ['Bowl 1', 
                 [
-                    ['250g', 'plain flour (sifted)'],
-                    ['2 tsp', 'bicarbonate soda'],
-                    ['1/2 tsp', 'salt'],
-                    ['1_1/2 tsp', 'ground cinnamon'],
+                    ['2 cups', 'all-purpose flour (sifted)'],
+                    ['2 teaspoons', 'baking soda'],
+                    ['2 teaspoons', 'ground cinnamon'],
+                    ['1/4 teaspoon', 'salt'],
                 ]
             ],
 
             ['Bowl 2', 
                 [
-                    ['295ml', 'vegetable oil'],
-                    ['200g', 'granulated sugar'],
-                    ['200g', 'light brown soft sugar'],
-                    ['1 tsp', 'vanilla extract'],
-                    ['4', 'large eggs'],
-                    ['300g', 'grated, peeled carrots'],
-                    ['100g', 'chopped pecans'],
-                    ['65g', 'raisins'],
+                    ['1_1/2 cups', 'white sugar'],
+                    ['3', 'large eggs'],
+                    ['3/4 cup', 'buttermilk'],
+                    ['3/4 cup', 'vegtable oil'],
+                    ['2 teaspoons', 'vanilla extract'],
                 ]
             ],
 
+            ['bowl 3',
+                [
+                    ['1 can', 'crushed pinapple with juice'],
+                    ['1 cup', 'chopped walnuts (optional)'],
+                    ['1 cup', 'raisins (optional)'],
+            ['frosting'
+                [
+                    ['113g', 'unsalted butter (softened)'],
+                    ['200g', 'powdered icing sugar (sifted)'],
+                    ['250g', 'cream cheese (softened and cut into smaller cubes)'],
+                    ['1_1/2 teaspoon', 'lemon juice'],
+                    ['1/2 teaspoon', 'vanilla extract'],
+
             ['Preparation', 
                 [
-                    ['Combine both bowls, and divide batter equally into two tins.'],
-                    ['Bake at *160°C** fan forced for @30@@-45 minutes@@@.'],
+                    ['while mixing bowl 2 together add bowl 1'],
+                    ['combine bowl 3 and pour the batter into baking tray'],
+                    ['Bake at *350* for @1hr@@.'],
+
+            ['frosting',
+                [
+                    ['beat in all the ingredients together until smooth and fluffy'],
                 ]
             ]
         ],
-        ["", "", ""]
+        ["Adapted from ", "SOURCE", "URL"]
     ],
+
+    
 
     [
         "Upside Down Pineapple Cake", "20 mins", "40 mins", "Serves 10",
