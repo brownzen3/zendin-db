@@ -1,5 +1,5 @@
 const allowLoad            = true;
-const compatibleImporter   = "1.0";
+const compatibleImporter   = "1.1";
 
 
 const database = [
@@ -229,7 +229,7 @@ const database = [
     ],
 
 
-    [ "Cookies",                       "15 mins", "25 mins", "Serves 12",
+    [ "Cookies"                       "15 mins", "25 mins", "Serves 12",
         [
             ["Main Bowl", 
                 [
