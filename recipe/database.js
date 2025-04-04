@@ -114,7 +114,7 @@ const database = [
     ],
 
     
-    [ 'Carrot Cake', '20 mins', '1hr', '15 People', 
+    [ 'Carrot Cake', '20 mins', '1 hr', 'Serves 15', 
         [
             ['Bowl 1', 
                 [
@@ -143,7 +143,7 @@ const database = [
                 ]
             ],
 
-            ['Frosting'
+            ['Frosting',
                 [
                     ['113g', 'unsalted butter (softened)'],
                     ['200g', 'powdered icing sugar (sifted)'],
@@ -167,8 +167,7 @@ const database = [
     ],
 
 
-    [
-        "Upside Down Pineapple Cake", "20 mins", "40 mins", "Serves 10",
+    [ "Upside Down Pineapple Cake", "20 mins", "40 mins", "Serves 10",
         [
             ["Toppings", 
                 [
