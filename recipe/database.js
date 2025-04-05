@@ -151,14 +151,13 @@ const database = [
 
             ["Frosting",
                 [
-                    ["110g",      "unsalted butter (softened)"],
-                    ["200g",      "powdered icing sugar (sifted)"],
-                    ["250g",      "cream cheese (cubed)"],
-                    ["1_1/2 tsp", "lemon juice"],
-                    ["1/2 tsp",   "vanilla extract"],
-                    ["*",         "Combine butter and half of the icing sugar until smooth."],
-                    ["*",         "Add and mix the other ingredients individually."],
-                    ["*",         "Mix in the remaining icing sugar until light and fluffy."],
+                    ["65g",       "unsalted butter (softened)"],
+                    ["90g",       "powdered icing sugar"],
+                    ["150g",      "cream cheese (cubed)"],
+                    ["1 tsp",     "lemon juice"],
+                    ["1/4 tsp",   "vanilla extract"],
+                    ["*",         "Combine butter and half of the icing sugar."],
+                    ["*",         "Add and mix the other ingredients until smooth and fluffy."],
                 ]
             ],
 
@@ -172,7 +171,7 @@ const database = [
 
         ],
 
-        ["Adapted from ", "SOURCE", "URL"]
+        ["Adapted from ", "allrecipes", "https://www.allrecipes.com/recipe/8270/sams-famous-carrot-cake/"]
     ],
 
 
@@ -293,7 +292,7 @@ const database = [
             ]
         ],
 
-        ["Adapted from", "multiple sources", ""]
+        ["", "", ""]
     ],
 
 
