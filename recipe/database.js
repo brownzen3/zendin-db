@@ -171,7 +171,7 @@ const database = [
 
         ],
 
-        ["Adapted from ", "allrecipes", "https://www.allrecipes.com/recipe/8270/sams-famous-carrot-cake/"]
+        ["Adapted from ", "Allrecipes", "https://www.allrecipes.com/recipe/8270/sams-famous-carrot-cake/"]
     ],
 
 
