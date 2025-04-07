@@ -458,7 +458,7 @@ const database = [
                 "Tap pan on the counter a few times."
               ],
               [
-                "Bake at *105°C** for 20 min, then *135°C** for another 20 min, finally at *150°C** for 5-10 min. The tops should be golden brown and springy."
+                "Bake at: *105°C** for 20 min ⇒ 135°C for 20 min ⇒ 150°C for 5-10 min, until tops are golden brown and springy."
               ]
             ]
           ]
