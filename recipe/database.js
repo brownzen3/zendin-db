@@ -380,8 +380,8 @@ const database = [
                 "cocoa powder"
               ],
               [
-                "1/8 tsp",
-                "salt"
+                "pinch",
+                "of salt"
               ]
             ]
           ],
@@ -409,8 +409,8 @@ const database = [
                 "vanilla extract"
               ],
               [
-                "1/8 tsp",
-                "salt"
+                "pinch",
+                "of salt"
               ]
             ]
           ],
