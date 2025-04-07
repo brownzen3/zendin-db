@@ -346,6 +346,130 @@ const database = [
         ["", "", ""]
     ],
 
+    [
+        "Chiffon Cupcakes",
+        "15 mins",
+        "50 mins",
+        "12 cupcakes",
+        [
+          [
+            "Chocolate Batter",
+            [
+              [
+                "40g",
+                "large egg yolks (keep whites)"
+              ],
+              [
+                "30g",
+                "milk"
+              ],
+              [
+                "20g",
+                "oil"
+              ],
+              [
+                "10g",
+                "chocolate chips (melted)"
+              ],
+              [
+                "24g",
+                "cake flour"
+              ],
+              [
+                "7g",
+                "cocoa powder"
+              ],
+              [
+                "1/8 tsp",
+                "salt"
+              ]
+            ]
+          ],
+          [
+            "Vanilla Batter",
+            [
+              [
+                "2",
+                "large egg yolks (keep whites)"
+              ],
+              [
+                "30g",
+                "milk"
+              ],
+              [
+                "30g",
+                "oil"
+              ],
+              [
+                "30g",
+                "cake flour"
+              ],
+              [
+                "1/2 tsp",
+                "vanilla extract"
+              ],
+              [
+                "1/8 tsp",
+                "salt"
+              ]
+            ]
+          ],
+          [
+            "Meringue",
+            [
+              [
+                " ",
+                "beaten egg whites"
+              ],
+              [
+                "1/2 tsp",
+                "lemon juice"
+              ],
+              [
+                "30g",
+                "sugar"
+              ],
+              [
+                "*",
+                "Add sugar in parts, gradually while beating."
+              ],
+              [
+                "*",
+                "Whip until peak is firm, then on low speed for 1 min."
+              ]
+            ]
+          ],
+          [
+            "Preparation",
+            [
+              [
+                "Whisk meringue in 1/3rds into the batter."
+              ],
+              [
+                "Fold final 1/3rd in using a spatula, until fluffy."
+              ],
+              [
+                "Fill cupcake cups to about 3/4."
+              ],
+              [
+                "Use a toothpick in a zigzag motion to pop bubbles."
+              ],
+              [
+                "Tap pan on the counter a few times."
+              ],
+              [
+                "Bake at *105°C** for @20@@ minutes@@@, then *135°C** for another @20@@ minutes@, finally at *150°C** for @5@@-10 minutes@@@. The tops should be golden brown and springy."
+              ]
+            ]
+          ]
+        ],
+        [
+          "Adapted from ",
+          "WTCT",
+          "https://whattocooktoday.com/chocolate-chiffon-cupcake.html"
+        ]
+      ]
+
  
 // end of database
 ];
