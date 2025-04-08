@@ -70,9 +70,9 @@ const database = [
 
             ["Preparation", 
                 [
-                    ["Combine bowls and transfer half of the batter into a cake tin."],
+                    ["Combine bowls, transfer half the batter to a tin."],
                     ["Evenly sprinkle the cinnamon swirl over the batter."],
-                    ["Add the remaining batter, and swirl with a knife."],
+                    ["Add the remaining batter, swirl with a knife."],
                     ["Bake at *160°C** fan forced for @30@@-45 minutes@@@."],
                 ]
             ]
@@ -109,7 +109,7 @@ const database = [
 
             ["Preparation", 
                 [
-                    ["Whilst mixing, add in the contents of the dry bowl."],
+                    ["Gradually mix the dry bowl into the wet bowl."],
                     ["Bake at *160°C** for @25@@ minutes@@@."],
                 ]
             ]
@@ -157,13 +157,13 @@ const database = [
                     ["1 tsp",     "lemon juice"],
                     ["1/4 tsp",   "vanilla extract"],
                     ["*",         "Combine butter and half of the icing sugar."],
-                    ["*",         "Add and mix the other ingredients until smooth and fluffy."],
+                    ["*",         "Mix in other items till smooth and fluffy."],
                 ]
             ],
 
             ["Preparation", 
                 [
-                    ["Gradually add the dry bowl into the wet bowl, mixing until just combined."],
+                    ["Gradually mix the dry bowl into the wet bowl, until just combined."],
                     ["Stir add-ins into the batter."],
                     ["Bake at *175°C** for @60@@ minutes@@@."],
                 ]
@@ -216,8 +216,8 @@ const database = [
             ["Preparation", 
                 [
                     ["Mix in 1/3 of the dry bowl into the cream bowl."],
-                    ["Add half of the wet bowl in, mix, then half of the remaining dry bowl."],
-                    ["Finally, add the remainder of the wet bowl, then dry bowl."],
+                    ["Add half of the wet bowl, then half of the dry bowl."],
+                    ["Finally, add the remainder of the wet and dry bowl."],
                     ["Add remaining pineapple, chopped, into the batter."],
                     ["Bake at *160°C** fan forced for @40@@ minutes@@@."],
                 ]
@@ -252,8 +252,8 @@ const database = [
             ["Preparation", 
                 [
                     ["Freeze the batter for a minimum of 30 minutes (ideally, freeze overnight)."],
-                    ["Scoop the frozen batter into golf-ball sized spheres."],
-                    ["Place the spheres onto a baking tray, around 6cm apart."],
+                    ["Scoop the batter into golf-ball sized spheres."],
+                    ["Place onto a baking tray, 6cm apart."],
                     ["Bake at *160°C** fan forced until the edges start to brown - around @20@@ minutes@@@."]
                 ]
             ]
@@ -285,8 +285,8 @@ const database = [
 
             ["Preparation", 
                 [
-                    ["Stir the wet mixture into the dry bowl, until almost combined."],
-                    ["Fold in the beaten egg whites, just until no streaks remain."],
+                    ["Stir the wet mixture into the dry bowl, till almost combined."],
+                    ["Fold in the beaten egg whites - no streaks remain."],
                     ["Cook in waffle maker until golden (according to manufacturer instructions)."]
                 ]
             ]
@@ -411,7 +411,7 @@ const database = [
               ],
               [
                 "*",
-                "Whip until peak is firm, then on low speed for 1 min."
+                "Whip till peak is firm, then on low for 1 min."
               ]
             ]
           ],
