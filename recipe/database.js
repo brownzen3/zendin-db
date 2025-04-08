@@ -99,9 +99,9 @@ const database = [
                 [
                     ["2 tbsp",    "horlics"],
                     ["100ml",     "boiling water"],
-                    ["100g",      "smooth biscuit spread (i.e. Biscoff)"],
-                    ["85ml",      "vegetable oil (= 78g)"],
-                    ["284ml",     "buttermilk (1 standard tub)"],
+                    ["100g",      "smooth biscuit spread"],
+                    ["78g",       "vegetable oil"],
+                    ["284ml",     "buttermilk"],
                     ["2 tsp",     "vanilla extract"],
                     ["2",         "large eggs"],
                 ]
@@ -135,15 +135,15 @@ const database = [
                     ["300g",      "white sugar"],
                     ["3",         "large eggs"],
                     ["180ml",     "buttermilk"],
-                    ["180ml",     "vegtable oil (= 170g)"],
+                    ["170g",      "vegtable oil"],
                     ["2 tsp",     "vanilla extract"],
                 ]
             ],
 
             ["Add-ins",
                 [
-                    ["2 cups",    "grated carrots (around 4-5)"],
-                    ["1 can",     "crushed pinapple with juice"],
+                    ["4-5",       "grated carrots"],
+                    ["1 can",     "crushed pinapple"],
                     ["1 cup",     "chopped walnuts (optional)"],
                     ["1 cup",     "raisins (optional)"],
                 ]
@@ -179,11 +179,11 @@ const database = [
         [
             ["Toppings", 
                 [
-                    ["565g",      "canned pineapple slices in juice (not in syrup)"],
-                    ["12-18",     "maraschino/glacé cherries"],
+                    ["1 can",     "pineapple slices (keep juice)"],
+                    ["12-18",     "glacé cherries"],
                     ["100g",      "brown sugar"],
                     ["*",         "Line a cake tin with parchment paper, and sprinkle the brown sugar evenly over the base."],
-                    ["*",         "Dry the fruit with tea towels, then place on the base, pressing them down firmly."],
+                    ["*",         "Dry the fruit with kitchen tissues, then place on the base, pressing them down firmly."],
                 ]
             ],
 
@@ -199,7 +199,7 @@ const database = [
             ["Wet Bowl", 
                 [
                     ["85 ml",     "milk"],
-                    ["65 ml",     "pineapple juice (from tin)"],
+                    ["65 ml",     "pineapple juice"],
                     ["60g",       "sour cream / plain yogurt"],
                     ["1 tsp",     "vanilla extract"],
                 ]
@@ -207,9 +207,9 @@ const database = [
 
             ["Cream Bowl", 
                 [
-                    ["115g",      "unsalted butter (melted, at RT)"],
+                    ["115g",      "unsalted butter (melted)"],
                     ["150g",      "granulated sugar"],
-                    ["2",         "large eggs (at room temperature)"],
+                    ["2",         "large eggs"],
                 ]
             ],
 
@@ -245,13 +245,13 @@ const database = [
 
             ["Combine with...",
                 [
-                    ["~200g",     "broken chocolate (or chocolate chips)"],
+                    ["~200g",     "broken chocolate"],
                 ]
             ],
 
             ["Preparation", 
                 [
-                    ["Freeze the batter for a minimum of 30 minutes (for best results, freeze overnight)."],
+                    ["Freeze the batter for a minimum of 30 minutes (ideally, freeze overnight)."],
                     ["Scoop the frozen batter into golf-ball sized spheres."],
                     ["Place the spheres onto a baking tray, around 6cm apart."],
                     ["Bake at *160°C** fan forced until the edges start to brown - around @20@@ minutes@@@."]
@@ -278,7 +278,7 @@ const database = [
                 [
                     ["390ml",     "milk"],
                     ["125ml",     "vegetable oil"],
-                    ["3",         "egg yolks (keep egg whites)"],
+                    ["3",         "egg yolks (keep whites)"],
                     ["1 tsp",     "vanilla extract"],
                 ]
             ],
@@ -288,30 +288,6 @@ const database = [
                     ["Stir the wet mixture into the dry bowl, until almost combined."],
                     ["Fold in the beaten egg whites, just until no streaks remain."],
                     ["Cook in waffle maker until golden (according to manufacturer instructions)."]
-                ]
-            ]
-        ],
-
-        ["", "", ""]
-    ],
-
-
-    [ "Cupcakes",                      "5 mins",  "25 mins", "Serves 12",
-        [
-            ["Bowl", 
-                [
-                    ["200g",      "unsalted butter (melted)"],
-                    ["200g",      "caster sugar"],
-                    ["3",         "large eggs"],
-                    ["2 tsp",     "vanilla extract"],
-                    ["200g",      "self-raising flour"],
-                    ["2 tbsp",    "milk"],
-                ]
-            ],
-
-            ["Preparation", 
-                [
-                    ["Bake at *160°C** fan forced for @20@@-25 minutes@@@."]
                 ]
             ]
         ],
@@ -380,8 +356,8 @@ const database = [
                 "cocoa powder"
               ],
               [
-                "pinch",
-                "of salt"
+                "1/8 tsp",
+                "salt"
               ]
             ]
           ],
@@ -409,8 +385,8 @@ const database = [
                 "vanilla extract"
               ],
               [
-                "pinch",
-                "of salt"
+                "1/8 tsp",
+                "salt"
               ]
             ]
           ],
@@ -443,10 +419,10 @@ const database = [
             "Preparation",
             [
               [
-                "Whisk meringue in 1/3rds into the batter."
+                "Whisk meringue into the batter, 1/3 at a time."
               ],
               [
-                "Fold final 1/3rd in using a spatula, until fluffy."
+                "Fold final 1/3 in using a spatula, until fluffy."
               ],
               [
                 "Fill cupcake cups to about 3/4."
@@ -458,7 +434,7 @@ const database = [
                 "Tap pan on the counter a few times."
               ],
               [
-                "Bake at: *105°C** for 20 min ⇒ 135°C for 20 min ⇒ 150°C for 5-10 min, until tops are golden brown and springy."
+                "Bake at: *105°C** for 20 min, 135°C for 20 min, 150°C for 5-10 min. (until tops are golden brown and springy)"
               ]
             ]
           ]
