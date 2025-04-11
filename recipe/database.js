@@ -1,5 +1,5 @@
 const allowLoad            = true;
-const compatibleImporter   = "1.1";
+const compatibleImporter   = "1.2";
 
 
 const database = [
